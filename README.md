@@ -1,7 +1,11 @@
 # Newsprovider
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
-# Install Node Modules
+#Download Source code
+git clone https://github.com/T-Pavankumar/newsassesment.git
+
+
+##To Install Libraries
 npm install
 
 
