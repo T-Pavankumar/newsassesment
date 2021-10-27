@@ -1,0 +1,24 @@
+<!-- <div *ngFor="let display of newsdisplay">
+    {{display.title}}
+</div> -->
+
+<div class="container-fluid mt-5">
+
+    <h4>Technology News</h4>
+<div class="row">
+
+    <div *ngFor="let display of technewsdisplay" class="col-lg-3 mt-3 mb-3">
+        <div class="box">
+            <img src="{{display.urlToImage}} " width="100%">
+
+            <h5 class="mt-2 mb-2">{{display.title}}</h5>
+            <!-- <p>{{display.content}}</p> -->
+            <!-- <p>{{display.description}}</p> -->
+            <a href="{{display.url}}" target="_balnk" class="btn btn-dark btn-sm mt-2">Read More..</a>
+        </div>
+      
+
+    </div>
+</div>
+
+</div>
